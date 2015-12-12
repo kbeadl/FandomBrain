@@ -1,0 +1,5 @@
+<?php
+$apikey = '';
+$apisecret = '';
+$callback = '';
+?>

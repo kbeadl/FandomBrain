@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../about/fonts/Montserrat-Bold-webfont.eot');
+    src: url('../about/fonts/Montserrat-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../about/fonts/Montserrat-Bold-webfont.woff2') format('woff2'),
+         url('../about/fonts/Montserrat-Bold-webfont.woff') format('woff'),
+         url('../about/fonts/Montserrat-Bold-webfont.ttf') format('truetype'),
+         url('../about/fonts/Montserrat-Bold-webfont.svg#montserratlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	background:#2ca1cc;
+	font-family: 'Raleway', sans-serif;
+	font-size:14px;
+	color:#999;
+    overflow-x: hidden;
+}
+h1, h2, h3 {
+	color:#2a2a2a;
+}
+p {
+	margin-bottom:15px;
+	color:#999;
+}
+
+hr {
+	border: 1px dashed #eee;
+	margin: 20px 0;
+}
+a {
+	color:#333;
+	text-decoration: none;
+}
+a:hover{
+	color:#000;
+}
+.login-form, .signup-form, .forgot-pwd {
+	margin-left: auto;
+    margin-right: auto;
+	background:#fff;
+	border-radius: 4px;
+	padding:30px;
+	text-align:center;
+}
+.login-form, .forgot-pwd {
+	width:350px;
+}
+#section1{
+	position: relative;
+}
+.signup-form {
+	width:100px;
+}
+.form-wrapper-01 {
+	margin: 0;
+	padding: 10px 0;
+}
+.form-wrapper-01 .inputbox {
+	border: 1px solid #eaedf2;
+	border-radius:3px;
+	height: 40px;
+	padding: 10px 0 10px 32px;
+	outline:none;
+	margin-bottom:10px;
+	font-family: inherit;
+}
+.login-form .form-wrapper-01 .inputbox {
+	width:88%;
+}
+.button {
+	background: none repeat scroll 0 0 #14B9D5;
+	border: none;
+	border-radius: 4px 4px 4px 4px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-family: inherit;
+	font-size: 15px;
+	font-weight: 700;
+	padding: 10px 20px;
+}
+.button:hover {
+	background:#0e778a;
+}
+.button > i {
+	font-size:20px;
+}
+#fb{
+	font-family: 'montserratbold';
+	font-size: 28px;
+	color: #00b154;
+}
+#slogan{
+	color: black;
+}
